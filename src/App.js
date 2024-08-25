@@ -1,11 +1,8 @@
+import { Provider } from 'react-redux';
 import Body from './components/Body';
 
 function App() {
-  return (
-    <div>
-      <Body/>
-    </div>
-  );
+  return <Provider><Body/></Provider>;
 }
 
 export default App;
