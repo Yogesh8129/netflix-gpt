@@ -12,6 +12,8 @@
 - Create SignUp User Account
 - Implement Sing In User API
 - Created Redux Store with userSlice
+- Implemented SignOut Feature
+- Update profile API call 
 
 # Features
 - Login/Signup
