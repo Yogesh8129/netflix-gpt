@@ -16,7 +16,9 @@
 - Update profile API call 
 - Bug fix of Signup user display name and profile picture update
 - Bug fix if user is not logged in then redirect /browse to login page or vice-versa
- 
+- Unsubscribe to the onAuthStateChanged callback
+- Added hardcoded values to Constants files
+
 # Features
 - Login/Signup
     - Sign In/ Sign up Form
