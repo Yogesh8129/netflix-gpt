@@ -33,13 +33,12 @@ const Header = () => {
           navigate("/");
         }
       })
-
       // Unsubscribe when the component unmounts
       return () => unsubscribe();
     }, []);
     
   return (
-    <div className='flex justify-between absolute w-screen px-8 py-2 z-10 bg-gradient-to-b from-black'>
+    <div className='flex justify-between absolute w-screen px-8 py-2 z-[1000] bg-gradient-to-b from-black'>
         <img className="w-44" src={LOGO}
         alt="logo"/>
         {user && (<div className='flex p-2'>
