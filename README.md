@@ -28,6 +28,11 @@
 - Updated the store with Trailer Video Data
 - Embeded the Youtube Video and adjusted the autoplay, on loop and mute settings
 - Tailwind CSS to change the look of MainContainer
+- Built Secondary Container
+- Built Movie List and Movie Card
+- TMDB Img CDN 
+- Made the browser page with Tailwind CSS
+- usePopularMovies custom hook
 
 # Features
 - Login/Signup
