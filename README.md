@@ -33,6 +33,8 @@
 - TMDB Img CDN 
 - Made the browser page with Tailwind CSS
 - usePopularMovies custom hook
+- useUpcomingMovies custom hook
+- use TopRatedMovies custom hook
 
 # Features
 - Login/Signup
