@@ -35,6 +35,7 @@
 - usePopularMovies custom hook
 - useUpcomingMovies custom hook
 - use TopRatedMovies custom hook
+- GPT Search Feature
 
 # Features
 - Login/Signup

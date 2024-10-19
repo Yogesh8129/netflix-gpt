@@ -18,3 +18,7 @@ export const API_OPTIONS = {
 };
 
 export const IMG_PATH = "https://image.tmdb.org/t/p/w500/";
+
+
+
+//TODO Docker image and DOCKER DEPLOY

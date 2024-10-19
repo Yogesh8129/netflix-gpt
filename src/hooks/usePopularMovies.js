@@ -9,6 +9,7 @@ const usePopularMovies = () => {
 
   const getPopularMovies = async () => {
     const data = await fetch(
+      //TODO move this into constants
       "https://api.themoviedb.org/3/movie/popular?page=1",
       API_OPTIONS
     );

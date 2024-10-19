@@ -9,6 +9,7 @@ const useTopRatedMovies = () => {
 
   const getTopRatedMovies = async () => {
     const data = await fetch(
+      //TODO move this into constants
       "https://api.themoviedb.org/3/movie/now_playing?page=1",
       API_OPTIONS
     );

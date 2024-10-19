@@ -9,8 +9,10 @@ const useMovieTrailer = (movieId) => {
   // Fetching the trailer video and updating the store
   const getMovieVideos = async () => {
     const data = await fetch(
+      //TODO move this into constants
       "https://api.themoviedb.org/3/movie/" +
         movieId +
+        //TODO move this into constants
         "/videos?language=en-US",
       API_OPTIONS
     );
