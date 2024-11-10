@@ -41,12 +41,12 @@ const Login = () => {
       authUser();
     }
     else{
-      console.log("Please check all the fields");
+      alert("Please check all the fields");
     }
   };
 
   const authUser = () =>{
-    console.log("User is signed in");
+    alert("User is signed in");
     if(!isSignInForm){
       //Sign Up Logic
       createUserWithEmailAndPassword(auth, email.current.value, password.current.value)
