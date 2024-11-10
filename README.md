@@ -35,7 +35,8 @@
 - usePopularMovies custom hook
 - useUpcomingMovies custom hook
 - use TopRatedMovies custom hook
-- GPT Search Feature
+- GPT Search Page and GPT Search Bar
+- Added Multi-lingual feature
 
 # Features
 - Login/Signup
